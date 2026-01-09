@@ -190,6 +190,32 @@
   line-height: 26px;
 }
 
+#early-access-section {
+  width: 1360px;
+  text-align: center;
+  background: #F7F6F2;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 40px 80px;
+}
+
+#early-access-section h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px 20px;
+}
+
+#early-access-section p{
+  font-size: 16px;
+  font-weight: 200;
+  color: #627382;
+  padding-bottom: 20px;
+}
+#early-access-section button {
+  margin-bottom: 10px;
+}
+ 
+
 
 
 
