@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* Common Secton */
+
+.common-btn {
+  background: #469165;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 6px;
+  color: #FFFFFF;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 12px 16px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  background: transparent;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin: 16px;
+}
+
+.btn i {
+  margin-right: 10px;
+}
+
+/* Header Section */
+
+#header-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 120px;
+  align-items: center;
+}
+
+.nav-item a {
+  margin: 0 32px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#banner-section {
+  background-image: url(hero-bg.png);
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 134px 120px;
+  width: 100%;
+}
+
+.banner-text-01 {
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding:8px 12px;
+  border-radius: 1000px;
+  font-size: 16px;
+  color: #469165;
+  margin-bottom: 16px;
+}
+
+.banner-text-01 i{
+  text-align: center;
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+#banner-section h1 {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 84px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+#banner-section h1 span {
+  color: #30B868;
+}
+
+.banner-text-02 {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+} 
+
+#notes-section h2 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  color: #001931;
+}
+
+#notes-section .title {
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.notes-cards {
+  padding-top: 44px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin-bottom: 20px 30px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 24px 24px;
+  border-radius: 8px;
+  padding-top: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background: #F95555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+ 
+}
+
+.icon img {
+  width: 32px;
+  height: 32px;
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #001931;
+  padding: 24px 24px;
+  text-align: center;
+}
+
+.card p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  text-align: center;
+}
+
+#brain-section {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 120px 120px;
+}
+
+.text .color-text {
+ color: #469165;
+ font-weight: 400;
+}
+
+.text h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  padding-bottom: 10px;
+}
+
+.text p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #627382;
+  padding-bottom: 20px;
+}
+
+.text ul li {
+  display: flex;
+  line-height: 26px;
+}
+
+#early-access-section {
+  width: 1360px;
+  text-align: center;
+  background: #F7F6F2;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 40px 80px;
+}
+
+#early-access-section h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px 20px;
+}
+
+#early-access-section p{
+  font-size: 16px;
+  font-weight: 200;
+  color: #627382;
+  padding-bottom: 20px;
+}
+#early-access-section button {
+  margin-bottom: 10px;
+}
+
+.footer {
+  background: #001931;
+  padding-top:120px;
+  padding-bottom: 30px;
+  padding-right: 120px;
+  padding-left: 120px;
+  color: #F7F6F2;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social {
+  font-size: 20px;
+  font-weight: 500;
+  color: #e5e7eb;
+  text-align: center;
+}
+
+.footer-social p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #e5e7eb;
+}
+
+.social-icons {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-end;
+}
+
+.social-icons i {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #F7F6F2;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.footer-line {
+  height: 1px;
+  margin: 30px 0 18px;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FAFAFA;
+}
+
+
+
+
+ 
+
+
+
+
+ 
