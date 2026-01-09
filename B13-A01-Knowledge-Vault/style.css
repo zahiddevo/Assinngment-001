@@ -3,18 +3,34 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  background: #FFFFFF;
 }
 
 /* Common Secton */
 
 .common-btn {
   background: #469165;
-  padding: 10px 16px;
+  padding: 12px 16px;
   border: none;
   border-radius: 6px;
   color: #FFFFFF;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
   cursor: pointer;
+}
+
+.btn {
+  padding: 12px 16px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  background: transparent;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin: 16px;
+}
+
+.btn i {
+  margin-right: 10px;
 }
 
 /* Header Section */
@@ -33,3 +49,50 @@
   font-size: 16px;
   font-weight: 500;
 }
+
+#banner-section {
+  background-image: url(./assets/hero-bg.png);
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 134px 120px;
+  width: 100%;
+}
+
+.banner-text-01 {
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding:8px 12px;
+  border-radius: 1000px;
+  font-size: 16px;
+  color: #469165;
+  margin-bottom: 16px;
+}
+
+.banner-text-01 i{
+  text-align: center;
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+#banner-section h1 {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 84px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+#banner-section h1 span {
+  color: #30B868;
+}
+
+.banner-text-02 {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+ 
