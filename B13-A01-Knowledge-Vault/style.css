@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background: #FFFFFF;
+}
+
+/* Common Secton */
+
+.common-btn {
+  background: #469165;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* Header Section */
+
+#header-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 120px;
+  align-items: center;
+}
+
+.nav-item a {
+  margin: 0 32px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
